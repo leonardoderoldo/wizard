@@ -1,0 +1,13 @@
+{
+  "name": "wizard",
+  "authors": [
+    "Leonardo Deroldo <leonardo@deroldo.com.br>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "wizard.deroldo.com.br",  
+  "dependencies": {
+    "jquery-validation": "jquery.validate#^1.13.0"
+  }
+}
