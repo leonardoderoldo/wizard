@@ -1,4 +1,4 @@
-# wizard
+# EASY-WIZARD
 
 
 ## Installation
