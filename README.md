@@ -3,7 +3,7 @@
 
 ## Installation
 
-In a browser:
+In a bower:
 ```html
 bower i --save easy-wizard
 ```
