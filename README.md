@@ -14,37 +14,42 @@ bower i --save easy-wizard
 ## Usage
 
 ## Add in your HTML page:
+```html
   <wizard wizard-config="vm.wizard" ng-model="vm"></wizard>
+...
 
 ## Your controller
 
-angular.module('app')
-    .controller('yourCtrl', [function(){
+```html
+angular.module('app')<br>
+    .controller('yourCtrl', [function(){<br><br>
 
-  vm.wizard = {
-              steps: [{
-                  templateUrl: 'assets/pages/wizard/step1.html',
-                  hasForm: true,
-                  title: 'Your title',
-                  funcao: function(calback){}
-              }],
-              messages: {
-                  fieldName: { required: '' }
-              },
-              finishConfirm: "Confirm finish",
-              onFinish: function(){}
+  vm.wizard = {<br>
+              steps: [{<br>
+                  templateUrl: 'assets/pages/wizard/step1.html',<br>
+                  hasForm: true,<br>
+                  title: 'Your title',<br>
+                  funcao: function(calback){}<br>
+              }],<br>
+              messages: {<br>
+                  fieldName: { required: '' }<br>
+              },<br>
+              finishConfirm: "Confirm finish",<br>
+              onFinish: function(){}<br>
           };
 }]);
+...
 
 ## Options
-  -> steps
-    -> templateUrl: String - Path your fragment
-    -> hasForm: Boolean - Indicate if has form
-    -> title: String - Step description
-    -> funcao: Function - Function performed while changing step
-    -> onInit: Function - Function started at the start of each step
+```html
+  -> steps<br>
+    -> templateUrl: String - Path your fragment<br>
+    -> hasForm: Boolean - Indicate if has form<br>
+    -> title: String - Step description<br>
+    -> funcao: Function - Function performed while changing step<br>
+    -> onInit: Function - Function started at the start of each step<br><br><br>
     
-  -> messages: Descriptions validations
-  -> finishConfirm: String - Message confirmation
-  -> onFinish: Function - Function performed at the end of the last step
-              
+  -> messages: Descriptions validations<br>
+  -> finishConfirm: String - Message confirmation<br>
+  -> onFinish: Function - Function performed at the end of the last step<br>
+...
