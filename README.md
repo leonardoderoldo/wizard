@@ -42,7 +42,7 @@ angular.module('app')
 
 ## Options
 ```html
-  -> steps
+  -> steps - Array - Lst of steps
     -> templateUrl: String - Path your fragment
     -> hasForm: Boolean - Indicate if has form
     -> title: String - Step description
