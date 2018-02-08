@@ -1,0 +1,22 @@
+{
+  "name": "angular-easy-wizard",
+  "version": "1.0.0",
+  "description": "Easy wizard for angular 1.x",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leonardoderoldo/wizard.git"
+  },
+  "keywords": [
+    "wizard"
+  ],
+  "author": "Leonardo Deroldo Fernandes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leonardoderoldo/wizard/issues"
+  },
+  "homepage": "https://github.com/leonardoderoldo/wizard#readme"
+}
