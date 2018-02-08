@@ -16,7 +16,7 @@ bower i --save easy-wizard
 ## Add in your HTML page:
 ```html
   <wizard wizard-config="vm.wizard" ng-model="vm"></wizard>
-...
+```
 
 ## Your controller
 
@@ -38,7 +38,7 @@ angular.module('app')<br>
               onFinish: function(){}<br>
           };
 }]);
-...
+```
 
 ## Options
 ```html
@@ -52,4 +52,4 @@ angular.module('app')<br>
   -> messages: Descriptions validations<br>
   -> finishConfirm: String - Message confirmation<br>
   -> onFinish: Function - Function performed at the end of the last step<br>
-...
+```
